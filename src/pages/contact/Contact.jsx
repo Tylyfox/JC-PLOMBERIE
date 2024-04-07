@@ -1,6 +1,7 @@
 import React from 'react';
 import SeparateItem from '../../components/common/SeparateItem'; 
 import MapComponent from '../../components/map/Map';
+import AppWrap from '../../wrapper/AppWrap';
 import emailImage from '../../assets/images/contact/email.png'; // Ajustez les chemins selon votre structure
 import phoneImage from '../../assets/images/contact/smartphone.png';
 import gpsImage from '../../assets/images/contact/gps.png';
@@ -29,7 +30,7 @@ const contacts = [
 
 function Contact() {
   return (
-    <div className="app__contact">
+    <div className="app__contact" id="Contact">
       <SeparateItem />
       <h1>Nous contacter</h1>
       <div className="app__contact-details">
@@ -52,4 +53,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default AppWrap(Contact, 'contact');

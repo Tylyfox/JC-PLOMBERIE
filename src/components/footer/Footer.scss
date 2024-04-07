@@ -48,13 +48,14 @@
     margin-bottom: 1rem;
   }
   
-  .app__footer-links_div p {
+  .app__footer-links_div a {
     font-family: var(--font-family);
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     color: #fff;
     margin: 0.5rem 0;
     cursor: pointer;
+    text-decoration: none;
   }
   .app__footer-copyright {
     margin-top: 2rem;

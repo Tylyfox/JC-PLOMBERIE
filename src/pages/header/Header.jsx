@@ -1,9 +1,10 @@
 import React from 'react';
 import './Header.scss';
+import AppWrap from '../../wrapper/AppWrap';
 
 function Header() {
   return (
-    <div className="app__header">
+    <div className="app__header" id="Accueil">
       <div className="app_header-infos">
         <h1>Bienvenue chez JC-PLOMBERIE, votre expert en plomberie!</h1>
         <p>Profitez de mon expertise pour tous vos besoins en plomberie, de la recherche de fuites au dépannage de chauffe-eau.</p>
@@ -22,4 +23,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default AppWrap(Header, 'acceuil');

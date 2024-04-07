@@ -11,9 +11,9 @@ function Footer() {
         </div>
         <div className="app__footer-links_div">
           <h4>Liens</h4>
-          <p>Accueil</p>
-          <p>Services</p>
-          <p>Contact</p>
+          <a href="#Accueil">Accueil</a>
+          <a href="#Services">Services</a>
+          <a href="#Contact">Contact</a>
         </div>
         <div className="app__footer-links_div">
           <h4>Société</h4>

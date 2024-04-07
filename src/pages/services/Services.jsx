@@ -1,6 +1,7 @@
 import React from 'react';
 import CardService from '../../components/card/CardService';
 import SeparateItem from '../../components/common/SeparateItem';
+import AppWrap from '../../wrapper/AppWrap';
 import './Services.scss';
 
 import repairImage from '../../assets/images/services/repair.png';
@@ -45,7 +46,7 @@ const services = [
 
 function Services() {
   return (
-    <div className="app__service">
+    <div className="app__service" id="Services">
       <SeparateItem />
       <h1>Nos services</h1>
       <section>
@@ -61,4 +62,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default AppWrap(Services, 'services');
