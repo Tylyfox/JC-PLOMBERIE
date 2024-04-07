@@ -1,0 +1,10 @@
+/* Contenu pour SeparateItem.css */
+.app__line {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondary-color); /* Assurez-vous que --secondary-color est défini quelque part dans vos styles globaux ou ici */
+    margin: 2rem;
+  }
+  
