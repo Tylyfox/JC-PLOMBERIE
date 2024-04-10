@@ -1,9 +1,6 @@
 import "./App.scss";
-import Navbar from "./components/navbar/Navbar";
-import Header from "./pages/header/Header";
-import Services from "./pages/services/Services";
-import Contact from "./pages/contact/Contact";
-import Footer from "./components/footer/Footer";
+import {Contact, Services, Header} from "./pages/index";
+import {Navbar, Footer} from "./components/index";
 
 function App() {
   return (

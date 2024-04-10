@@ -1,27 +1,24 @@
 import React from 'react';
-import SeparateItem from '../../components/common/SeparateItem'; 
-import MapComponent from '../../components/map/Map';
+import {SeparateItem, Map} from '../../components';
 import AppWrap from '../../wrapper/AppWrap';
-import emailImage from '../../assets/images/contact/email.png'; // Ajustez les chemins selon votre structure
-import phoneImage from '../../assets/images/contact/smartphone.png';
-import gpsImage from '../../assets/images/contact/gps.png';
+import {email, smartphone, gps} from "../../assets/images";
 import './Contact.scss';
 
 const contacts = [
   {
-    image: gpsImage,
+    image: gps,
     title: 'ADRESSE:',
     description: '4 rue de l\'Egalité, 59580 EMERCHICOURT',
     type: 'address'
   },
   {
-    image: emailImage,
+    image: email,
     title: 'EMAIL:',
     description: 'jc.plomberie@laposte.net',
     type: 'mail'
   },
   {
-    image: phoneImage,
+    image: smartphone,
     title: 'APPELEZ NOUS:',
     description: '0660732036',
     type: 'phone'
@@ -42,12 +39,12 @@ function Contact() {
               </div>
               <h2>{contact.title}</h2>
               {contact.type === 'mail' && <a href={`mailto:${contact.description}`}>{contact.description}</a>}
-              {contact.type === 'phone' && <a href={`tel:${contact.description}`}>{contact.description}</a>}
+              {contact.type === 'phone' && <a href={`tel:${contact.description}`}>{contact.description.match(/..?/g).join(' ')}</a>}
               {contact.type === 'address' && <p>{contact.description}</p>}
             </div>
           ))}
         </div>
-        <MapComponent />
+        <Map />
       </div>
     </div>
   );

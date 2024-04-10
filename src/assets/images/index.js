@@ -1,0 +1,9 @@
+export {default as repair} from "./services/repair.png";
+export {default as piping} from "./services/piping.png";
+export {default as sink} from "./services/sink.png";
+export {default as radiator} from "./services/radiator.png";
+export {default as waterHeader} from "./services/water-heater.png";
+export {default as pipeline} from "./services/pipeline.png";
+export {default as email} from "./contact/email.png";
+export {default as gps} from "./contact/gps.png";
+export {default as smartphone} from "./contact/smartphone.png";
