@@ -21,13 +21,13 @@ function Footer() {
         </div>
         <div className="app__footer-links_div">
           <h4>Nous trouver</h4>
-          <p>4 rue de l'Egalite - 59580 Emerchicourt</p>
+          <p>4 rue de l'Egalité - 59580 Emerchicourt</p>
           <p>06 60 73 20 36</p>
           <p>jc.plomberie@laposte.net</p>
         </div>
       </div>
       <div className="app__footer-copyright">
-        <p>© 2024 JC PLOMBERIE. Tous droits réservés.</p>
+        <p>© 2024 JC-PLOMBERIE. Tous droits réservés.</p>
       </div>
     </div>
   );

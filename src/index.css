@@ -2,8 +2,7 @@
   --font-base: 'Inter', sans-serif;
   --primary-color: #fafafb;
   --secondary-color: #2388d9;
-  --black-color: ;
-  --white-color: ;
+  --tertiary-color: #333333;
 }
 
 *,
@@ -21,4 +20,9 @@ h1 {
   font-weight: 500;
   text-transform: uppercase;
   padding-bottom: 2rem;
+}
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 1.4rem;
+  }
 }

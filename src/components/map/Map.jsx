@@ -13,7 +13,7 @@ function Map() {
   const attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
   return (
-    <div style={{ height: '300px', width: '500px', zIndex: 4 }}>
+    <div className="app__map-global">
       <MapContainer className="app__map" center={center} zoom={zoom} style={{ height: '100%', width: '100%', zIndex: 4 }}>
         <TileLayer url={url} attribution={attribution} />
         <Circle center={circleCenter} radius={circleRadius} />

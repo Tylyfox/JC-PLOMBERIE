@@ -11,4 +11,10 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 6rem;
+    @media screen and (max-width: 900px) {
+      gap: 4rem;
+    }
+    @media screen and (max-width: 600px) {
+      gap: 2rem;
+    }
   }
