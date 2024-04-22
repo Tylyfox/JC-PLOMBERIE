@@ -89,9 +89,9 @@ function Footer() {
               Le Directeur de la publication est Jean Charles Leteneur
             </Typography>
             <Typography variant="body2" sx={{ mt: 1 }}>
-              L’hébergeur du site https://jc-plomberie.fr est la société OVH,
-              dont le siège social est situé au 2 rue Kellermann, 59100 Roubaix,
-              France.
+              L’hébergeur du site https://jc-plomberie.fr est la société Vercel, Inc,
+              dont le siège social est situé au 340 Street Lemon Ave #4133 Walnut CA 91789,
+              United State.
             </Typography>
             <Typography variant="subtitle1" sx={{ mt: 2, fontWeight: "bold", color: '#5586ca' }}>
               Article 2 : Accès au site
