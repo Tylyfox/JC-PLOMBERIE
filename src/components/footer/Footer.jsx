@@ -67,7 +67,7 @@ function Footer() {
               id="transition-modal-title"
               variant="h4"
               component="h2"
-              sx={{ mb: 2 , textAlign: 'center'}}
+              sx={{ mb: 2 , textAlign: 'center',color: '#5586ca'}}
             >
               Mentions Légales
             </Typography>
@@ -107,7 +107,7 @@ function Footer() {
             <Typography variant="body2" sx={{ mt: 1 }}>
             Certaines sections du site sont réservées aux membres après leur inscription et nécessitent pour l'utilisateur de fournir des informations personnelles. L'utilisateur s'engage à fournir des informations exactes.
             </Typography>
-            <Typography variant="subtitle1" sx={{ mt: 2, fontWeight: "bold, color: '#5586ca'" }}>
+            <Typography variant="subtitle1" sx={{ mt: 2, fontWeight: "bold", color: '#5586ca' }}>
             Article 3 : Collecte des données
             </Typography>
             <Typography variant="body2" sx={{ mt: 1 }}>

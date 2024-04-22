@@ -29,7 +29,7 @@ h1 {
 body {
   --sb-track-color: #3a454a;
   --sb-thumb-color: #5586ca;
-  --sb-size: 18px;
+  --sb-size: 12px;
 }
 
 body::-webkit-scrollbar {
