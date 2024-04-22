@@ -7,19 +7,19 @@ import './Contact.scss';
 const contacts = [
   {
     image: gps,
-    title: 'ADRESSE:',
+    title: 'ADRESSE',
     description: '4 rue de l\'Egalité, 59580 EMERCHICOURT',
     type: 'address'
   },
   {
     image: email,
-    title: 'EMAIL:',
+    title: 'EMAIL',
     description: 'jc.plomberie@laposte.net',
     type: 'mail'
   },
   {
     image: smartphone,
-    title: 'APPELEZ NOUS:',
+    title: 'APPELEZ NOUS',
     description: '0660732036',
     type: 'phone'
   }

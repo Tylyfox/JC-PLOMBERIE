@@ -11,6 +11,7 @@
     padding-bottom: 4rem;
     margin-top: 4.5rem;
   @media screen and (max-width: 600px) {
+    margin-bottom: 1rem;
     flex-direction: column-reverse;
   }
   }
@@ -29,7 +30,6 @@
     margin: 2rem;
     text-transform: uppercase;
     @media screen and (max-width: 900px) {
-    
       padding: 1rem;
       gap: 0.5rem;
       border-radius: 53% 47% 69% 31% / 47% 55% 45% 53% ;
@@ -40,6 +40,7 @@
       }
     }
     @media screen and (max-width: 600px) {
+      padding:1rem;
       border-radius: 100% ;
       h2 {
         font-size: 1rem;

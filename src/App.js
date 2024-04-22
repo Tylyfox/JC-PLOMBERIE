@@ -1,6 +1,7 @@
 import "./App.scss";
 import {Contact, Services, Header} from "./pages/index";
 import {Navbar, Footer} from "./components/index";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Services />
       <Contact />
       <Footer />
+      <Analytics />
     </div>
   );
 }
