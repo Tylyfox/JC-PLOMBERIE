@@ -5,7 +5,8 @@
     align-items: center;
     background: var(--secondary-color);
     margin-top: 1rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+
   }
   .app__footer-links {
     display: flex;
@@ -47,6 +48,14 @@
     line-height: 16px;
     color: #fff;
     margin-bottom: 1rem;
+  }
+  .app__footer-links_div p {
+    font-family: var(--font-family);
+    font-size: 0.8rem;
+    line-height: 12px;
+    color: #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
   }
   
   .app__footer-links_div a {
@@ -92,5 +101,27 @@
     .app__footer-heading h1 {
       font-size: 27px;
       line-height: 38px;
+    }
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+  
+  .scrollbar::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 14px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 14px;
+    border: 2px solid #232e33;
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    .scrollbar {
+        scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
     }
   }

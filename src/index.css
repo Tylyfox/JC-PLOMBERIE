@@ -26,3 +26,30 @@ h1 {
     font-size: 1.4rem;
   }
 }
+body {
+  --sb-track-color: #3a454a;
+  --sb-thumb-color: #5586ca;
+  --sb-size: 18px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 14px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 14px;
+  border: 2px solid #232e33;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+      scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
