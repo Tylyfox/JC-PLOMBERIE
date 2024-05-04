@@ -7,3 +7,5 @@ export {default as pipeline} from "./services/pipeline.png";
 export {default as email} from "./contact/email.png";
 export {default as gps} from "./contact/gps.png";
 export {default as smartphone} from "./contact/smartphone.png";
+export {default as logoTransparent} from "./logo/logo-transparent-png.png"
+export {default as logo} from "./logo/logo-png.png"

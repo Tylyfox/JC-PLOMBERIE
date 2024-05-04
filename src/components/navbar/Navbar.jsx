@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { IoMdPhonePortrait } from "react-icons/io";
 import { HiMenuAlt4, HiX} from "react-icons/hi";
 import { motion } from "framer-motion";
+import {logoTransparent} from "../../assets/images/index";
 import './Navbar.scss';
 
 function Navbar() {
@@ -12,7 +13,7 @@ function Navbar() {
         <nav>
             <div className="app__navbar-menu">
                 <div className="app__navbar-logo">
-                    <img src="#" alt="JC-PLOMBERIE-LOGO"/> {/* Mettez à jour le src avec votre chemin d'image */}
+                    <img src={logoTransparent} alt="JC-PLOMBERIE-LOGO"/>
                 </div>
                 <ul className="app__navbar-links">
                     {links.map((link, index) => (

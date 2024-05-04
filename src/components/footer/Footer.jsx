@@ -5,6 +5,8 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Typography from "@mui/material/Typography";
+import {logo} from "../../assets/images/index";
+
 
 function Footer() {
   const [open, setOpen] = React.useState(false);
@@ -27,7 +29,7 @@ function Footer() {
     <div className="app__footer section__padding">
       <div className="app__footer-links">
         <div className="app__footer-links_logo">
-          <img src="#" alt="logo" />
+          <img src={logo} alt="logo JC-PLOMBERIE" />
           <p>JC Plomberie</p>
         </div>
         <div className="app__footer-links_div">
